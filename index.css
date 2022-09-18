@@ -1,0 +1,31 @@
+body{
+    margin: auto;
+    background-color: rgb(12,180,74);
+}
+.card{
+    border: 1px solid black;
+    width: auto;
+    height: 30rem;
+    border-radius: 18px;
+    background-color: rgb(216, 213, 192);
+    text-align: center;
+}
+.card-img-top{
+    width: auto;
+    height: 15rem;
+    padding: 12px;
+}
+.card-body{
+    padding-top:34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1400px;
+    font-size: 18px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
